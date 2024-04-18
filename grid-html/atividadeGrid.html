@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Atividade</title>
+
+<style>
+
+        .grid-container-exemplo1 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr ;
+            grid-gap: 20px
+        }
+
+        @media (max-width: 10px) {
+            .grid-container-exemplo1 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .grid-item-exemplo1 {
+            background-color: rgb(106, 126, 117);
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+</style>
+
+<style>
+        .grid-container-exemplo2 {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr ;
+            grid-gap: 20px
+        }
+
+        @media (max-width: 10px) {
+            .grid-container-exemplo2 {
+                grid-template-columns: 1fr 2fr 1fr;
+            }
+        }
+
+        .grid-item-exemplo2 {
+            background-color: rgb(163, 226, 202);
+            padding: 120px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+</style>
+
+<style> 
+
+        .grid-container-exemplo3 {
+            display: grid;
+            grid-template-columns: 100fr ;
+            grid-gap: 20px
+        }
+
+        @media (max-width: 10px) {
+            .grid-container-exemplo3 {
+                grid-template-columns: 1fr 2fr 1fr;
+            }
+        }
+
+        .grid-item-exemplo3 {
+            background-color: rgb(33, 179, 118);
+            padding: 70px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+</style>
+
+<style> 
+ 
+        .grid-container-exemplo4 {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 20px
+        }
+
+        @media (max-width: 10px) {
+            .grid-container-exemplo4 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .grid-item-exemplo4 {
+            background-color: rgb(30, 160, 143);
+            padding: 90px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+</style>
+
+<style> 
+ 
+    .grid-container-exemplo5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-gap: 20px
+    }
+
+    @media (max-width: 10px) {
+        .grid-container-exemplo5 {
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+    }
+
+    .grid-item-exemplo5 {
+        background-color: rgb(70, 141, 132);
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+</style>
+
+</head>
+<body>
+
+    <h2>Exemplo 1: Grid Básico</h2>
+    <div class="grid-container-exemplo1">
+        <div class="grid-item-exemplo1">Iten1</div>
+        <div class="grid-item-exemplo1">Item2</div>
+        <div class="grid-item-exemplo1">Item3</div>
+    </div>
+
+    <div class="grid-container-exemplo2">
+        <div class="grid-item-exemplo2">Item4</div>
+        <div class="grid-item-exemplo2">Item5</div>
+    </div>
+
+    <h2>Exemplo 2: Grid com Áreas</h2>
+    <div class="grid-container-exemplo3">
+        <div class="grid-item-exemplo3">Header</div>
+    </div>
+
+    <div class="grid-container-exemplo4">
+        <div class="grid-item-exemplo4">Main content</div>
+        <div class="grid-item-exemplo4">Sidebar</div>
+    </div>
+
+    <h2>Exemplo 3: Grid Responsivo</h2>
+    <div class="grid-container-exemplo5">
+        <div class="grid-item-exemplo5">Iten1</div>
+        <div class="grid-item-exemplo5">Item2</div>
+        <div class="grid-item-exemplo5">Item3</div>
+        <div class="grid-item-exemplo5">Item4</div>
+        <div class="grid-item-exemplo5">Item5</div>
+        <div class="grid-item-exemplo5">Item6</div>
+    </div>
+    
+</body>
+</html>
